@@ -1,0 +1,42 @@
+
+.heading{
+    text-align:auto;
+}
+
+.newscard{
+    background-color:lightslategray;
+    width:25rem;
+    justify-content:space-around;
+    align-items:center;
+    padding:1rem;
+    border-radius :10px;
+    display:inline-block;
+    float:left;
+}
+.newscard img{
+    width:inherit; 
+    flex:auto;
+    height:10rem;
+    border-radius:10px;
+}
+
+.newscard >.disc{
+    width:25rem;
+    text-align:inherit;
+    font-display:inherit;
+    align-items:center;
+    margin-left: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-display:inherit;
+   
+
+}
+
+button{
+    align-items:center;
+    display:inline-block;
+    grid-template-columns: auto;
+    margin-left:inherit;
+    padding:0.7rem;
+    border-radius:5px
+}
